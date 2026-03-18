@@ -1,8 +1,9 @@
 *{
-    background-color: aquamarine;
-    color: black;
+    /* background-color: cadetblue; */
+    color: brown;
 }
 h1{
+    background-color: cadetblue !important;
     color: blueviolet;
 }
 img{
@@ -11,4 +12,11 @@ img{
 }
 p{
     font-size: 18px;
+}
+.hobbies{
+    background-color: chocolate;
+    color: black;
+}
+.Education{
+    background-color: cyan;
 }
