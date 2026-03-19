@@ -1,6 +1,6 @@
 *{
-    /* background-color: cadetblue; */
-    color: brown;
+   margin:0;
+    padding:0;
 }
 h1{
     background-color: cadetblue !important;
@@ -19,4 +19,30 @@ p{
 }
 .Education{
     background-color: cyan;
+}
+#watching{
+    background-color: coral;
+    border:3px black dotted;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
+
+}
+.First{
+    border-style: dotted;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
+    background-color: lightblue;
+    border-color: blue;
+}
+
+/* M flexbox properties */
+.container{
+    background-color: lightpink;
+}
+.Childcontainer{
+    background-color: slateblue;
+    display: flex;
+    flex-direction: row;
+    /* gap: 30px; */
+    justify-content: space-between;
 }
