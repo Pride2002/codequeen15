@@ -1,48 +1,84 @@
-*{
-   margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1{
-    background-color: cadetblue !important;
-    color: blueviolet;
+h1 {
+  background-color: cadetblue !important;
+  color: blueviolet;
 }
-img{
-    width: 250px;
-    height: 300px;
+.Kevin {
+  width: 250px;
+  height: 300px;
 }
-p{
-    font-size: 18px;
+p {
+  font-size: 18px;
 }
-.hobbies{
-    background-color: chocolate;
-    color: black;
+.hobbies {
+  background-color: chocolate;
+  color: black;
 }
-.Education{
-    background-color: cyan;
+.Education {
+  background-color: cyan;
 }
-#watching{
-    background-color: coral;
-    border:3px black dotted;
-    margin: 10px 5px 10px 5px;
-    padding: 10px 5px 10px 5px;
-
+#watching {
+  background-color: coral;
+  border: 3px black dotted;
+  margin: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
 }
-.First{
-    border-style: dotted;
-    margin: 10px 5px 10px 5px;
-    padding: 10px 5px 10px 5px;
-    background-color: lightblue;
-    border-color: blue;
+.First {
+  border-style: dotted;
+  margin: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
+  background-color: lightblue;
+  border-color: blue;
 }
 
 /* M flexbox properties */
-.container{
+/* .container{
     background-color: lightpink;
+} */
+.Childcontainer {
+  background-color: slateblue;
+  display: flex;
+  flex-direction: row;
+  /* gap: 30px; */
+  justify-content: space-between;
 }
-.Childcontainer{
-    background-color: slateblue;
-    display: flex;
-    flex-direction: row;
-    /* gap: 30px; */
-    justify-content: space-between;
+
+/* Bluecontainer  */
+.Bluecontainer {
+  border: 3px blue solid;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.flex-items {
+  border: 2px orangered solid;
+  margin: 5px;
+  height: 80px;
+  width: 50px;
+}
+
+.Greencontainer {
+  border: 2px green solid;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 10px;
+}
+
+.fa-brands {
+  color: brown;
+  float: right;
+  margin-top: 20px;
+}
+
+/* Bootstrap */
+
+.woman {
+  background-color: lightslategray !important;
 }

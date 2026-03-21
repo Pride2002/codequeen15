@@ -1,0 +1,41 @@
+* {
+  background-color: teal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 1;
+  justify-content: right;
+  padding: 0px;
+}
+h1 {
+  color: gold;
+  text-align: center !important;
+}
+img {
+  float: left;
+  margin-right: 30px !important;
+}
+.Hero {
+  color: whitesmoke;
+}
+.About {
+  text-underline-position: below;
+  color: whitesmoke;
+}
+.Coding {
+  color: whitesmoke;
+}
+.Health {
+  color: whitesmoke;
+}
+.Contact {
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.Footer {
+  color: whitesmoke;
+  text-align: center;
+  font-style: italic;
+}
+#Codingjourney {
+  transform: uppercase;
+}

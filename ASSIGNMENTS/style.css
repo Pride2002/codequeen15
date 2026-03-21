@@ -1,6 +1,6 @@
 * {
   background-color: teal;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: left;
   line-height: 1;
   justify-content: right;
@@ -10,28 +10,61 @@ h1 {
   color: gold;
   text-align: center !important;
 }
+.Child {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 10px;
+  color: gold;
+}
+
+.flex-box {
+  border-style: outset;
+  border-color: silver;
+  border-radius: 2px;
+  padding: 2px;
+}
+
 img {
   float: left;
-  margin-right: 30px !important;
+  margin-right: 30px;
+  margin-top: 10px;
+  border-radius: 150px;
 }
 .Hero {
   color: whitesmoke;
 }
 .About {
-  text-underline-position: below;
   color: whitesmoke;
+}
+
+/* CODING AND HEALTH */
+.Codingandhealth {
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+  align-content: left;
 }
 .Coding {
   color: whitesmoke;
+  border: 2px solid goldenrod;
+  padding: 30px;
+  border-radius: 70px;
 }
 .Health {
   color: whitesmoke;
+  border: 2px solid goldenrod;
+  padding: 30px;
+  border-radius: 80px;
 }
+
 .Contact {
+  margin-top: 40px;
   color: whitesmoke;
   border-radius: 10px;
+  text-align: right justify;
 }
 .Footer {
   color: whitesmoke;
   font-style: italic;
-
+}
