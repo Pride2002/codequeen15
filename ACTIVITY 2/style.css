@@ -1,0 +1,97 @@
+*{
+    /* color: grey; */
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar */
+.navbar-brand{
+    /* font: bold 30px/40px 'Times New Roman', Times, serif; */
+    justify-content: center;
+}
+.container-fluid{
+    background-color: darkcyan !important;
+    font:bold 20px/30px 'Times New Roman', Times, serif;
+}
+.search{
+    background-color: white;
+    border-color: green;
+}
+
+.Intro{
+    background-color: bisque;
+    border: 2px bisque;
+    color: black !important;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+    height: 300px;
+    text-align: center;
+    padding: 70px;
+}
+.specialist{
+    
+    color: black !important;
+    
+}
+.mine{
+    height: 200px;
+    width: 200px;
+/* float: left; */
+float: inline-start;
+border-radius: 100px;
+}
+.RH{
+    
+    text-align: center;
+}
+
+.head{
+    border: 2px bisque;
+    background-color: cadetblue;
+    color: black !important;
+    
+}
+/* Carousels */
+/* .active{
+    margin-bottom: 350px;
+} */
+
+/* Cards */
+.Container-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: left;
+    
+}
+.card-body1{
+    background-color: darkcyan;
+}
+
+.health{
+    background-color: darkcyan;
+    border-color: darkcyan;
+   
+}
+.card-body2{
+    background-color: orange;
+}
+.card-body3{
+    background-color: tomato;
+}
+body{
+    background-image: url(tecna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.ABOUT{
+    /* border:1px darkred solid; */
+    color: red;
+    text-align: left;
+    margin: 50px 200px 50px 5px;
+
+}

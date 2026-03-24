@@ -1,0 +1,503 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #1D3557;
+    padding: 0;
+}
+
+.dropdown-item{
+    background-color: bisque !important;
+}
+
+.navbar-brand {
+    color: bisque !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: bisque !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: bisque !important;
+}
+
+.search{
+    background-color: burlywood !important;
+}
+
+.Shortbio{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+    color: bisque;
+       
+}
+.intro1{
+    margin-left: 50px;
+    color: darkblue;
+    text-decoration: underline !important;
+    text-underline-offset: 15px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.grid{
+    padding: 20px;
+     height: 50% !important;
+     width: 100% !important;
+     font-weight: bold;
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.col-advocate{
+    border: 1.5px #1D3557 solid !important;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    color: #1D3557;
+    
+}
+.image{
+    height: 200px !important;
+    width: 150px !important;
+    border-radius: 80px;
+}
+
+/* cards */
+.Container-cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+/* Card Body Styling - Three Theme Colors */
+.card-body1 {
+    background-color: darkcyan;
+    color: #F5F5DC;
+}
+
+.card-body1 .card-title {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.card-body2 {
+    background-color: #B8D8D8;
+    color: #2F4F4F;
+}
+
+.card-body2 .card-title {
+    color: #1D3557;
+    font-weight: bold;
+}
+
+.card-body3 {
+    background-color: #1D3557;
+    color: #F5F5DC;
+}
+
+.card-body3 .card-title {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.health {
+    background-color: goldenrod !important;
+    color: #1D3557 !important;
+    border: none !important;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.health:hover {
+    background-color: burlywood !important;
+    transform: translateY(-2px);
+}
+
+/* form */
+.Contact{
+    /* background-color: beige; */
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    border: 3px teal solid;
+    align-content: center;
+    margin: 0 auto;
+    width: 30% !important;
+    height: 25% !important;
+ 
+}
+.heading{
+    color: #1D3557;
+    margin-left: 500px;
+}
+.input{
+    border-radius: 10px !important;
+    padding: 10px !important;
+    background-color: #B8D8D8 !important;
+    border:1.5px #B8D8D8 solid !important;
+
+}
+    
+    
+    
+
+
+/* .input{
+    border-radius: 10px !important;
+    padding: 10px !important;
+    border:1.5px cyan solid !important;
+    background-color: darkturquoise;
+    
+} */
+.send{
+    background-color: goldenrod !important;
+    color: #1D3557 !important;
+    border: none !important;
+    margin-left: auto;
+    padding: 8px 15px !important;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: auto !important;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.send:hover {
+    background-color: #F4D09F !important;
+}
+#heading{
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    background-color: #1D3557;
+    text-align: center;
+    color: #F5F5DC;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+
+/* Home */
+.home{
+    background-image: url(tecna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; 
+    width: 100%;
+    height: 100%;
+}
+.design{
+    color: firebrick;
+    text-align: center;
+    padding-top: 170px;
+}
+.home1{
+    margin: 0 !important;
+    background-color: darkred !important;
+}
+.foot{
+    background-color: darkred;
+    margin-bottom: 0;
+    text-align: center;
+    color: #F5F5DC;
+    padding-bottom: 2px;
+    margin-top: 300px;
+}
+
+/* ABOUT PAGE */
+/* .Aboutme{
+    background-image: url(ADVOCACY.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;   
+} */
+
+.Aboutme{
+    background-image: url(ADVOCACY.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Me{
+    margin-left: 650px;
+    color: burlywood;
+}
+
+.ABOUT{
+    margin-left: 480px;
+    color: bisque;
+}
+.me1{
+    padding-top: 5px;
+    background-color: brown;
+    text-align: center;
+    color: bisque !important;
+}
+.footer2{
+    background-color: brown !important;
+    text-align: center;
+    color: burlywood;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 50%;
+
+}
+
+/* C/ALHIV */
+.clhivs{
+    justify-content: left;
+}
+
+.stigma{
+    color: red;
+    text-align: center;
+}
+.CAL{
+    text-align: left;
+    color: darkblue;
+}
+.Activitiesa{
+    border: 1px darkblue solid;
+    background-color: lavender;
+    border-radius: 20px;
+    padding: 5px;
+    color: darkblue;
+    margin-right: 150px;
+    margin-left: 5px;     
+
+}
+
+.impacta{
+    /* border: 2px firebrick solid ; */
+    padding: 5px;
+    margin-right: 200px;
+    color: darkblue;
+}
+.supporti{
+
+    padding: 8px 15px !important;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+
+}
+
+.stigma{
+    background-color: darkred !important;
+    
+}
+.stigma1{
+    margin-left: 400px;
+    color: white !important;
+}
+.footer1{
+    background-color: darkred;
+     text-align: center;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+/* 
+Maternal health */
+.activity3{
+    border: 1px darkblue solid;
+    border-radius: 20px;
+    padding: 5px;
+    color: brown;
+    margin-right: 150px;
+    margin-left: 50px;
+    background-color: lavender;
+
+}
+.activity2{
+    color: mediumblue;
+}
+.mh1{
+    text-align: left;
+}
+.safe{
+    border-color: darkblue !important;
+    background-color: dodgerblue !important;
+    padding: 8px 15px !important;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.stigma2{
+    background-color: #1D3557 !important;
+    
+
+}
+.stigma3{
+    color: #F4D09F;
+     margin-left: 300px;
+    
+}
+.footer3{
+    background-color: #1D3557;
+     text-align: center;
+    color: #F4D09F;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+
+
+}
+
+
+
+
+
+
+/* Empowerment */
+.activity3{
+     border: 1px darkred solid;
+    border-radius: 20px;
+    padding: 5px;
+    color: darkblue;
+    margin-right: 150px;
+    margin-left: 50px;
+
+}
+.active{
+    color: darkred !important;
+}
+.women{
+    color: darkblue;
+}
+.emp{
+    text-align: left;
+}
+.move{
+    background-color: mediumblue !important;
+    padding: 8px 15px !important;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.footer4{
+    background-color: darkred;
+     text-align: center;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+    
+}
+
+
+/* Contact me */
+.connectme{
+    background-image: url(contact4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+
+}
+.movt2{
+    background-color: teal;
+    
+}
+.movt1{
+    margin-left: 300px;
+    
+}
+.mess{
+    border: 3px teal solid;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    width: 30% !important;
+    height: 25% !important;
+
+}
+.inputs{
+    border:1.5px burlywood;
+    background-color: burlywood !important;
+    border-radius: 10px !important;
+}
+.share{
+    background-color: goldenrod !important;
+    color: #1D3557 !important;
+    border: none !important;
+    margin-left: auto;
+    padding: 8px 15px !important;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: auto !important;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+.support1{
+    margin-left: 10px;
+    text-align: left;
+}
+.meso{
+    margin-left: 130px;
+}
+h3{
+    font-weight: bold;
+}
+.footer5{
+    background-color: teal;
+    color: burlywood;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+/* SUBMITTED */
+
+.submited{
+    border:3px darkblue solid;
+    margin: 100px 300px;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    color: blue;
+    background-color: cornflowerblue;
+
+}
+.thanks{
+    padding-right: 100px;
+}
+.icon{
+    float: left;
+    padding-left: 90px;
+    padding-top: 27px;
+}
